@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>THETA X Tour Demo - 8K Video Frame Extraction</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-r0010598-00012">
+        <li class="text">R0010598-00012</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-r0010598-00013">
+        <li class="text">R0010598-00013</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-r0010598-00014">
+        <li class="text">R0010598-00014</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-r0010598-00015">
+        <li class="text">R0010598-00015</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-r0010598-00016">
+        <li class="text">R0010598-00016</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-r0010598-00017">
+        <li class="text">R0010598-00017</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-r0010598-00018">
+        <li class="text">R0010598-00018</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-r0010598-00019">
+        <li class="text">R0010598-00019</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-r0010598-00020">
+        <li class="text">R0010598-00020</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-r0010598-00021">
+        <li class="text">R0010598-00021</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-r0010598-00022">
+        <li class="text">R0010598-00022</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-r0010598-00023">
+        <li class="text">R0010598-00023</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-r0010598-00024">
+        <li class="text">R0010598-00024</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-r0010598-00025">
+        <li class="text">R0010598-00025</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-r0010598-00026">
+        <li class="text">R0010598-00026</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-r0010598-00027">
+        <li class="text">R0010598-00027</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-r0010598-00028">
+        <li class="text">R0010598-00028</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-r0010598-00029">
+        <li class="text">R0010598-00029</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-r0010598-00030">
+        <li class="text">R0010598-00030</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-r0010598-00031">
+        <li class="text">R0010598-00031</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-r0010598-00032">
+        <li class="text">R0010598-00032</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-r0010598-00033">
+        <li class="text">R0010598-00033</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-r0010598-00034">
+        <li class="text">R0010598-00034</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-r0010598-00035">
+        <li class="text">R0010598-00035</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-r0010598-00036">
+        <li class="text">R0010598-00036</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-r0010598-00037">
+        <li class="text">R0010598-00037</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-r0010598-00038">
+        <li class="text">R0010598-00038</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-r0010598-00039">
+        <li class="text">R0010598-00039</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-r0010598-00040">
+        <li class="text">R0010598-00040</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-r0010598-00041">
+        <li class="text">R0010598-00041</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-r0010598-00042">
+        <li class="text">R0010598-00042</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-r0010598-00043">
+        <li class="text">R0010598-00043</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-r0010598-00044">
+        <li class="text">R0010598-00044</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-r0010598-00045">
+        <li class="text">R0010598-00045</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-r0010598-00046">
+        <li class="text">R0010598-00046</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-r0010598-00047">
+        <li class="text">R0010598-00047</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-r0010598-00048">
+        <li class="text">R0010598-00048</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-r0010598-00049">
+        <li class="text">R0010598-00049</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-r0010598-00050">
+        <li class="text">R0010598-00050</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-r0010598-00051">
+        <li class="text">R0010598-00051</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-r0010598-00052">
+        <li class="text">R0010598-00052</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-r0010598-00053">
+        <li class="text">R0010598-00053</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-r0010598-00054">
+        <li class="text">R0010598-00054</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-r0010598-00055">
+        <li class="text">R0010598-00055</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-r0010598-00056">
+        <li class="text">R0010598-00056</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-r0010598-00057">
+        <li class="text">R0010598-00057</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-r0010598-00058">
+        <li class="text">R0010598-00058</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-r0010598-00059">
+        <li class="text">R0010598-00059</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-r0010598-00060">
+        <li class="text">R0010598-00060</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-r0010598-00061">
+        <li class="text">R0010598-00061</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-r0010598-00062">
+        <li class="text">R0010598-00062</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-r0010598-00063">
+        <li class="text">R0010598-00063</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-r0010598-00064">
+        <li class="text">R0010598-00064</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-r0010598-00065">
+        <li class="text">R0010598-00065</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-r0010598-00066">
+        <li class="text">R0010598-00066</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-r0010598-00067">
+        <li class="text">R0010598-00067</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-r0010598-00068">
+        <li class="text">R0010598-00068</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-r0010598-00069">
+        <li class="text">R0010598-00069</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-r0010598-00070">
+        <li class="text">R0010598-00070</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-r0010598-00071">
+        <li class="text">R0010598-00071</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-r0010598-00072">
+        <li class="text">R0010598-00072</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-r0010598-00073">
+        <li class="text">R0010598-00073</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-r0010598-00074">
+        <li class="text">R0010598-00074</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-r0010598-00075">
+        <li class="text">R0010598-00075</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-r0010598-00076">
+        <li class="text">R0010598-00076</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-r0010598-00077">
+        <li class="text">R0010598-00077</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-r0010598-00078">
+        <li class="text">R0010598-00078</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-r0010598-00079">
+        <li class="text">R0010598-00079</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="68-r0010598-00080">
+        <li class="text">R0010598-00080</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="69-r0010598-00081">
+        <li class="text">R0010598-00081</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="70-r0010598-00082">
+        <li class="text">R0010598-00082</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="71-r0010598-00083">
+        <li class="text">R0010598-00083</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="72-r0010598-00084">
+        <li class="text">R0010598-00084</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="73-r0010598-00085">
+        <li class="text">R0010598-00085</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="74-r0010598-00086">
+        <li class="text">R0010598-00086</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="75-r0010598-00087">
+        <li class="text">R0010598-00087</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="76-r0010598-00088">
+        <li class="text">R0010598-00088</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="77-r0010598-00089">
+        <li class="text">R0010598-00089</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="78-r0010598-00090">
+        <li class="text">R0010598-00090</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="79-r0010598-00091">
+        <li class="text">R0010598-00091</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
